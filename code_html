@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><div>
+        <h1>Raspberry Pi Project</h1>
+      </header>
+      <main>
+        <div id="project-details">
+          <h2>project Name: chatbot to respond to text queries related to mining industry</h2>
+          <p>This chatbot is designed to respond to text queries related to mining activities, providing descriptions of rules and regulations to be followed in various geographical locations. It identifies keywords in user queries, searches a database, and generates accurate responses.</p>
+          <p>Features:</p>
+          <ul>
+            <li>Motion detection using PIR sensor</li>
+            <li>Real-time video streaming using Raspberry Pi camera</li>
+            <li>Alert notifications via email</li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <p>&copy; 2024 Raspberry Pi Project</p>
+      </footer>
+    </div>
+      </body>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "This chatbot is built by team TechWizard",
+      "botId": "e1acf2b8-4873-4946-bae4-352171ffe57a",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "e1acf2b8-4873-4946-bae4-352171ffe57a",
+      "webhookId": "89d6d757-6991-4ba5-97b0-d58745c3b69d",
+      "lazySocket": true,
+      "themeName": "prism",
+      "frontendVersion": "v1",
+      "showPoweredBy": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+</body>
+</html>
